@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -779,7 +779,7 @@ public class RaceManager : MonoBehaviour
     public void SetStateStr(string msg)
     {
         //set scrolling text status
-        raceInfoBar.SetStateName(msg);
+        //raceInfoBar.SetStateName(msg);
     }
 
     public void SetTimerDisplay(float t)

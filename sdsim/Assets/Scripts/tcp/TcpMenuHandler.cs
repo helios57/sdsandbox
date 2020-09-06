@@ -112,12 +112,16 @@ namespace tk
             else if (scene_name == "generated_track")
             {
                 loader.LoadGeneratedTrackScene();
-            }
-            else if (scene_name == "mountain_track")
-            {
-                loader.LoadMountainTrackScene();
-            }
-        }
+      }
+      else if (scene_name == "mountain_track")
+      {
+        loader.LoadMountainTrackScene();
+      }
+      else if (scene_name == "lake_track")
+      {
+        loader.LoadMountainTrackScene();
+      }
+    }
         
         void OnQuitApp(JSONObject json)
         {

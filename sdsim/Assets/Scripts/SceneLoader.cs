@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -30,12 +30,16 @@ public void LoadGeneratedTrackScene()
     SceneManager.LoadSceneAsync(4);
 }
 
-public void LoadMountainTrackScene()
-{
+  public void LoadMountainTrackScene()
+  {
     SceneManager.LoadSceneAsync(5);
-}
+  }
+  public void LoadLakeTrackScene()
+  {
+    SceneManager.LoadSceneAsync(6);
+  }
 
-public void QuitApplication()
+  public void QuitApplication()
 {
     Application.Quit();
 }
