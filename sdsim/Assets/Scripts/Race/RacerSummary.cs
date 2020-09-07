@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -75,13 +75,6 @@ public class RacerSummary : MonoBehaviour
 
     internal void InitFinal(Competitor c)
     {
-        place.text = c.stage2_place.ToString();
-
-        if (c.best_stage2_time == RaceManager.dq_time)
-            lap_total.text = "DQ";
-        else
-            lap_total.text = c.best_stage2_time.ToString("00.00");
-
         carName.text = c.racer_name;
     }
 }

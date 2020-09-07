@@ -119,7 +119,7 @@ namespace tk
       }
       else if (scene_name == "lake_track")
       {
-        loader.LoadMountainTrackScene();
+        loader.LoadLakeTrackScene();
       }
     }
         

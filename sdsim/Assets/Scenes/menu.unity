@@ -1731,7 +1731,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 52467a3b7a09e244cb0cf7b887f9f8f8, type: 3}
+  m_Texture: {fileID: 2800000, guid: 73b3b753482156c47aaec3fb6b658745, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -3450,7 +3450,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SDSandbox v 20.8.24
+  m_Text: SDSandbox v 20.8.25
 --- !u!222 &2080155096
 CanvasRenderer:
   m_ObjectHideFlags: 0

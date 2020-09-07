@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -36,26 +36,5 @@ public class RaceCompetitor : MonoBehaviour
                 racer_name.color = offline_color;
             }
         }
-
-        if (comp.qual_time != 0.0f && raceState.m_State == RaceState.RaceStage.Qualifying)
-        {
-            infoPanel.SetActive(true);
-            info.text = System.String.Format("{0}.  {1:F2}", comp.qual_place, comp.qual_time);
-        }
-
-        if(raceState.m_State == RaceState.RaceStage.Stage1PostRace)
-        {
-            if (comp.best_stage1_time != 0.0)
-            {
-                infoPanel.SetActive(true);
-                info.text = System.String.Format("{0}.  {1:F2}", comp.stage1_place, comp.best_stage1_time);
-            }
-            else
-            {
-                infoPanel.SetActive(false);
-                info.text = "";
-            }
-        }
-
     }
 }
