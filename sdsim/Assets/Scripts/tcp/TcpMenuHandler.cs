@@ -79,6 +79,7 @@ namespace tk
             scenes.Add("sparkfun_avc");
             scenes.Add("generated_track");
             scenes.Add("mountain_track");
+            scenes.Add("lake_track");
 
             JSONObject json = new JSONObject(JSONObject.Type.OBJECT);
             json.AddField("scene_names", scenes);
